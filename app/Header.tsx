@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Link from 'next/link';
 const Header = () => {
   return (
-    <div>
-      <h1 className='text-xl bg-green-400 p-5 text-white flex justify-center'>
-        Header
-      </h1>
+    <div className='bg-green-600 p-3'>
+      <Link className='bg-white p-2 rounded-2xl' href='/'>
+        Home
+      </Link>
     </div>
   );
 };
