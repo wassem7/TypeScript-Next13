@@ -13,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <head>
+        <title>Wassem Todos</title>
+      </head>
       <body>
         <Header />
         {children}

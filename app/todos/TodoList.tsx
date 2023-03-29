@@ -5,6 +5,7 @@ const fetchTodos = async () => {
     'https://jsonplaceholder.typicode.com/todos'
   );
   const todos: Todo[] = await res.json();
+
   return todos;
 };
 
